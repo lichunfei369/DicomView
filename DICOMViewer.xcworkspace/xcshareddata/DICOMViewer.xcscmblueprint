@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "557CE1B18B34D4CAA815C72829CB10468FD3C793",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "7DEF67FBDAA327ACE199EBDB8FDBD9D2986CA4C9" : 9223372036854775807,
+    "557CE1B18B34D4CAA815C72829CB10468FD3C793" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "FE18E034-4AD5-412A-9D98-79E81B62A6A8",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "7DEF67FBDAA327ACE199EBDB8FDBD9D2986CA4C9" : "DicomView\/DICOMViewer\/",
+    "557CE1B18B34D4CAA815C72829CB10468FD3C793" : "DicomView\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "DICOMViewer",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "DICOMViewer.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ZJQian\/Dicom.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "557CE1B18B34D4CAA815C72829CB10468FD3C793"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ZJQian\/DICOMViewer.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "7DEF67FBDAA327ACE199EBDB8FDBD9D2986CA4C9"
+    }
+  ]
+}

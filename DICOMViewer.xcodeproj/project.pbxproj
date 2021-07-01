@@ -1,0 +1,1237 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6B48290AC011362CD9D9EF7A /* libPods-DICOMViewerTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C9E075A5FD456434469BFB5 /* libPods-DICOMViewerTests.a */; };
+		A07697BFCF5D0BFD40115F0E /* libPods-DICOMViewerUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F571CC2EEC1AF19B17BBAFFF /* libPods-DICOMViewerUITests.a */; };
+		B32A9D0F1EF8CDAF0067AEF8 /* NSString+SubstringToInde.m in Sources */ = {isa = PBXBuildFile; fileRef = B32A9D0E1EF8CDAF0067AEF8 /* NSString+SubstringToInde.m */; };
+		B32A9D131EF910800067AEF8 /* MainTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B32A9D111EF910800067AEF8 /* MainTableViewCell.m */; };
+		B32A9D141EF910800067AEF8 /* MainTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B32A9D121EF910800067AEF8 /* MainTableViewCell.xib */; };
+		B35A297D1ED27F4F0074DAE8 /* PPHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = B35A297B1ED27F4F0074DAE8 /* PPHTTPRequest.m */; };
+		B374144F1ECAF0F000AA3186 /* DicomDictionary.plist in Resources */ = {isa = PBXBuildFile; fileRef = B37414481ECAF0F000AA3186 /* DicomDictionary.plist */; };
+		B37414501ECAF0F000AA3186 /* KSDicom2DView.m in Sources */ = {isa = PBXBuildFile; fileRef = B374144A1ECAF0F000AA3186 /* KSDicom2DView.m */; };
+		B37414511ECAF0F000AA3186 /* KSDicomDecoder.mm in Sources */ = {isa = PBXBuildFile; fileRef = B374144C1ECAF0F000AA3186 /* KSDicomDecoder.mm */; };
+		B37414521ECAF0F000AA3186 /* KSDicomDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = B374144E1ECAF0F000AA3186 /* KSDicomDictionary.m */; };
+		B37414561ECAF13800AA3186 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B37414551ECAF13800AA3186 /* AppDelegate.m */; };
+		B37414771ECAF1F600AA3186 /* CanvasView.m in Sources */ = {isa = PBXBuildFile; fileRef = B374146C1ECAF1F600AA3186 /* CanvasView.m */; };
+		B37414791ECAF1F600AA3186 /* NSString+Ext.m in Sources */ = {isa = PBXBuildFile; fileRef = B37414701ECAF1F600AA3186 /* NSString+Ext.m */; };
+		B374147A1ECAF1F600AA3186 /* ShapeView.m in Sources */ = {isa = PBXBuildFile; fileRef = B37414721ECAF1F600AA3186 /* ShapeView.m */; };
+		B374147B1ECAF1F600AA3186 /* Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = B37414741ECAF1F600AA3186 /* Tool.m */; };
+		B37414841ECAF22400AA3186 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B374147F1ECAF22400AA3186 /* DetailViewController.m */; };
+		B37414851ECAF22400AA3186 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B37414811ECAF22400AA3186 /* MainViewController.m */; };
+		B37414861ECAF22400AA3186 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B37414831ECAF22400AA3186 /* ViewController.m */; };
+		B374148E1ECAF26600AA3186 /* DetailBottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = B37414891ECAF26600AA3186 /* DetailBottomView.m */; };
+		B374148F1ECAF26600AA3186 /* DetailContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = B374148B1ECAF26600AA3186 /* DetailContentView.m */; };
+		B37414901ECAF26600AA3186 /* MainCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B374148D1ECAF26600AA3186 /* MainCell.m */; };
+		B37414941ECAF2AC00AA3186 /* CustomSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = B37414931ECAF2AC00AA3186 /* CustomSlider.m */; };
+		B37414981ECAF2E700AA3186 /* PatientModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B37414971ECAF2E700AA3186 /* PatientModel.m */; };
+		B37414C61ECAF3B700AA3186 /* UIBarButtonItem+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = B37414C11ECAF3B700AA3186 /* UIBarButtonItem+Extension.m */; };
+		B37414C71ECAF3B700AA3186 /* UIImage+SearchHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = B37414C31ECAF3B700AA3186 /* UIImage+SearchHeight.m */; };
+		B37414C81ECAF3B700AA3186 /* UIView+CCExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = B37414C51ECAF3B700AA3186 /* UIView+CCExtension.m */; };
+		B37414CB1ECAF4A800AA3186 /* MedFilmNavigation.m in Sources */ = {isa = PBXBuildFile; fileRef = B37414CA1ECAF4A800AA3186 /* MedFilmNavigation.m */; };
+		B37414CE1ECAF4C400AA3186 /* MedFilmTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = B37414CD1ECAF4C400AA3186 /* MedFilmTabBarController.m */; };
+		B37414D61ECAF63F00AA3186 /* QueryController.m in Sources */ = {isa = PBXBuildFile; fileRef = B37414D21ECAF63F00AA3186 /* QueryController.m */; };
+		B3AEB5A11ED2B5E900E63C07 /* AJImageheadData.m in Sources */ = {isa = PBXBuildFile; fileRef = B3AEB59C1ED2B5E900E63C07 /* AJImageheadData.m */; };
+		B3AEB5A21ED2B5E900E63C07 /* UIFont+Fonts.m in Sources */ = {isa = PBXBuildFile; fileRef = B3AEB59E1ED2B5E900E63C07 /* UIFont+Fonts.m */; };
+		B3AEB5A31ED2B5E900E63C07 /* UIResponder+Adapt.m in Sources */ = {isa = PBXBuildFile; fileRef = B3AEB5A01ED2B5E900E63C07 /* UIResponder+Adapt.m */; };
+		B3AEB5A61ED2C37F00E63C07 /* MBProgressHUD+HH.m in Sources */ = {isa = PBXBuildFile; fileRef = B3AEB5A51ED2C37F00E63C07 /* MBProgressHUD+HH.m */; };
+		B3AEB5A91ED2D06100E63C07 /* jindutiao.m in Sources */ = {isa = PBXBuildFile; fileRef = B3AEB5A81ED2D06100E63C07 /* jindutiao.m */; };
+		B3AEB5AB1ED2D07300E63C07 /* jindutiao.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3AEB5AA1ED2D07300E63C07 /* jindutiao.xib */; };
+		B3E278D61ED3D15B00751F84 /* GCLoadingLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E278D51ED3D15B00751F84 /* GCLoadingLayer.m */; };
+		B3E278DB1ED3D1B400751F84 /* GCLoadingCircle.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E278D81ED3D1B400751F84 /* GCLoadingCircle.m */; };
+		B3E278DC1ED3D1B400751F84 /* GCLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E278DA1ED3D1B400751F84 /* GCLoadingView.m */; };
+		C4AB7E0FED89CF2FDA2B359F /* libPods-DICOMViewer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F8F50915CF4BC31BA575458 /* libPods-DICOMViewer.a */; };
+		EE9CB71C1E8B8D92004479E4 /* LJBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9CB7161E8B8D92004479E4 /* LJBaseModel.m */; };
+		EE9CB71D1E8B8D92004479E4 /* NSObject+YYModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9CB7181E8B8D92004479E4 /* NSObject+YYModel.m */; };
+		EE9CB71E1E8B8D92004479E4 /* YYClassInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9CB71A1E8B8D92004479E4 /* YYClassInfo.m */; };
+		EEB745241E7F882600026712 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB745231E7F882600026712 /* main.m */; };
+		EEB7452D1E7F882600026712 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEB7452B1E7F882600026712 /* Main.storyboard */; };
+		EEB745301E7F882600026712 /* DICOMViewer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EEB7452E1E7F882600026712 /* DICOMViewer.xcdatamodeld */; };
+		EEB745321E7F882600026712 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEB745311E7F882600026712 /* Assets.xcassets */; };
+		EEB745351E7F882600026712 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEB745331E7F882600026712 /* LaunchScreen.storyboard */; };
+		EEB745401E7F882600026712 /* DICOMViewerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB7453F1E7F882600026712 /* DICOMViewerTests.m */; };
+		EEB7454B1E7F882600026712 /* DICOMViewerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB7454A1E7F882600026712 /* DICOMViewerUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EEB7453C1E7F882600026712 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEB745171E7F882600026712 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EEB7451E1E7F882600026712;
+			remoteInfo = DICOMViewer;
+		};
+		EEB745471E7F882600026712 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEB745171E7F882600026712 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EEB7451E1E7F882600026712;
+			remoteInfo = DICOMViewer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1B98C8E39173B81342598F73 /* Pods-DICOMViewerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DICOMViewerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DICOMViewerTests/Pods-DICOMViewerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2EF9E22D685421FB2E3153EA /* Pods-DICOMViewerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DICOMViewerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DICOMViewerUITests/Pods-DICOMViewerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4F139E4B2F996C34E99D43A0 /* Pods-DICOMViewer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DICOMViewer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DICOMViewer/Pods-DICOMViewer.debug.xcconfig"; sourceTree = "<group>"; };
+		66E973AA9217AEDC68A76428 /* Pods-DICOMViewerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DICOMViewerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DICOMViewerTests/Pods-DICOMViewerTests.release.xcconfig"; sourceTree = "<group>"; };
+		7C9E075A5FD456434469BFB5 /* libPods-DICOMViewerTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DICOMViewerTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F8F50915CF4BC31BA575458 /* libPods-DICOMViewer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DICOMViewer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4ADB72BE6CD2B3E7C935304 /* Pods-DICOMViewerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DICOMViewerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DICOMViewerUITests/Pods-DICOMViewerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B32A9D0D1EF8CDAF0067AEF8 /* NSString+SubstringToInde.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SubstringToInde.h"; sourceTree = "<group>"; };
+		B32A9D0E1EF8CDAF0067AEF8 /* NSString+SubstringToInde.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SubstringToInde.m"; sourceTree = "<group>"; };
+		B32A9D101EF910800067AEF8 /* MainTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTableViewCell.h; sourceTree = "<group>"; };
+		B32A9D111EF910800067AEF8 /* MainTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTableViewCell.m; sourceTree = "<group>"; };
+		B32A9D121EF910800067AEF8 /* MainTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainTableViewCell.xib; sourceTree = "<group>"; };
+		B35A297A1ED27F4F0074DAE8 /* PPHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPHTTPRequest.h; sourceTree = "<group>"; };
+		B35A297B1ED27F4F0074DAE8 /* PPHTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPHTTPRequest.m; sourceTree = "<group>"; };
+		B35A297C1ED27F4F0074DAE8 /* PPInterfacedConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPInterfacedConst.h; sourceTree = "<group>"; };
+		B37414481ECAF0F000AA3186 /* DicomDictionary.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DicomDictionary.plist; sourceTree = "<group>"; };
+		B37414491ECAF0F000AA3186 /* KSDicom2DView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSDicom2DView.h; sourceTree = "<group>"; };
+		B374144A1ECAF0F000AA3186 /* KSDicom2DView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSDicom2DView.m; sourceTree = "<group>"; };
+		B374144B1ECAF0F000AA3186 /* KSDicomDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSDicomDecoder.h; sourceTree = "<group>"; };
+		B374144C1ECAF0F000AA3186 /* KSDicomDecoder.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = KSDicomDecoder.mm; sourceTree = "<group>"; };
+		B374144D1ECAF0F000AA3186 /* KSDicomDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSDicomDictionary.h; sourceTree = "<group>"; };
+		B374144E1ECAF0F000AA3186 /* KSDicomDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSDicomDictionary.m; sourceTree = "<group>"; };
+		B37414541ECAF13800AA3186 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B37414551ECAF13800AA3186 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B374146B1ECAF1F600AA3186 /* CanvasView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CanvasView.h; sourceTree = "<group>"; };
+		B374146C1ECAF1F600AA3186 /* CanvasView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CanvasView.m; sourceTree = "<group>"; };
+		B374146F1ECAF1F600AA3186 /* NSString+Ext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Ext.h"; sourceTree = "<group>"; };
+		B37414701ECAF1F600AA3186 /* NSString+Ext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Ext.m"; sourceTree = "<group>"; };
+		B37414711ECAF1F600AA3186 /* ShapeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShapeView.h; sourceTree = "<group>"; };
+		B37414721ECAF1F600AA3186 /* ShapeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShapeView.m; sourceTree = "<group>"; };
+		B37414731ECAF1F600AA3186 /* Tool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tool.h; sourceTree = "<group>"; };
+		B37414741ECAF1F600AA3186 /* Tool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tool.m; sourceTree = "<group>"; };
+		B374147E1ECAF22400AA3186 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		B374147F1ECAF22400AA3186 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		B37414801ECAF22400AA3186 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		B37414811ECAF22400AA3186 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		B37414821ECAF22400AA3186 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B37414831ECAF22400AA3186 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B37414881ECAF26600AA3186 /* DetailBottomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailBottomView.h; sourceTree = "<group>"; };
+		B37414891ECAF26600AA3186 /* DetailBottomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailBottomView.m; sourceTree = "<group>"; };
+		B374148A1ECAF26600AA3186 /* DetailContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailContentView.h; sourceTree = "<group>"; };
+		B374148B1ECAF26600AA3186 /* DetailContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailContentView.m; sourceTree = "<group>"; };
+		B374148C1ECAF26600AA3186 /* MainCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainCell.h; sourceTree = "<group>"; };
+		B374148D1ECAF26600AA3186 /* MainCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainCell.m; sourceTree = "<group>"; };
+		B37414921ECAF2AC00AA3186 /* CustomSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomSlider.h; sourceTree = "<group>"; };
+		B37414931ECAF2AC00AA3186 /* CustomSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomSlider.m; sourceTree = "<group>"; };
+		B37414961ECAF2E700AA3186 /* PatientModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PatientModel.h; sourceTree = "<group>"; };
+		B37414971ECAF2E700AA3186 /* PatientModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PatientModel.m; sourceTree = "<group>"; };
+		B37414C01ECAF3B700AA3186 /* UIBarButtonItem+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Extension.h"; sourceTree = "<group>"; };
+		B37414C11ECAF3B700AA3186 /* UIBarButtonItem+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Extension.m"; sourceTree = "<group>"; };
+		B37414C21ECAF3B700AA3186 /* UIImage+SearchHeight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+SearchHeight.h"; sourceTree = "<group>"; };
+		B37414C31ECAF3B700AA3186 /* UIImage+SearchHeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+SearchHeight.m"; sourceTree = "<group>"; };
+		B37414C41ECAF3B700AA3186 /* UIView+CCExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CCExtension.h"; sourceTree = "<group>"; };
+		B37414C51ECAF3B700AA3186 /* UIView+CCExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CCExtension.m"; sourceTree = "<group>"; };
+		B37414C91ECAF4A800AA3186 /* MedFilmNavigation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MedFilmNavigation.h; sourceTree = "<group>"; };
+		B37414CA1ECAF4A800AA3186 /* MedFilmNavigation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MedFilmNavigation.m; sourceTree = "<group>"; };
+		B37414CC1ECAF4C400AA3186 /* MedFilmTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MedFilmTabBarController.h; sourceTree = "<group>"; };
+		B37414CD1ECAF4C400AA3186 /* MedFilmTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MedFilmTabBarController.m; sourceTree = "<group>"; };
+		B37414D11ECAF63F00AA3186 /* QueryController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QueryController.h; sourceTree = "<group>"; };
+		B37414D21ECAF63F00AA3186 /* QueryController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QueryController.m; sourceTree = "<group>"; };
+		B37EE3D08F48AC1B43F8D257 /* Pods-DICOMViewer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DICOMViewer.release.xcconfig"; path = "Pods/Target Support Files/Pods-DICOMViewer/Pods-DICOMViewer.release.xcconfig"; sourceTree = "<group>"; };
+		B3AEB59B1ED2B5E900E63C07 /* AJImageheadData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AJImageheadData.h; sourceTree = "<group>"; };
+		B3AEB59C1ED2B5E900E63C07 /* AJImageheadData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AJImageheadData.m; sourceTree = "<group>"; };
+		B3AEB59D1ED2B5E900E63C07 /* UIFont+Fonts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+Fonts.h"; sourceTree = "<group>"; };
+		B3AEB59E1ED2B5E900E63C07 /* UIFont+Fonts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+Fonts.m"; sourceTree = "<group>"; };
+		B3AEB59F1ED2B5E900E63C07 /* UIResponder+Adapt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIResponder+Adapt.h"; sourceTree = "<group>"; };
+		B3AEB5A01ED2B5E900E63C07 /* UIResponder+Adapt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIResponder+Adapt.m"; sourceTree = "<group>"; };
+		B3AEB5A41ED2C37F00E63C07 /* MBProgressHUD+HH.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+HH.h"; sourceTree = "<group>"; };
+		B3AEB5A51ED2C37F00E63C07 /* MBProgressHUD+HH.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+HH.m"; sourceTree = "<group>"; };
+		B3AEB5A71ED2D06100E63C07 /* jindutiao.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jindutiao.h; sourceTree = "<group>"; };
+		B3AEB5A81ED2D06100E63C07 /* jindutiao.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = jindutiao.m; sourceTree = "<group>"; };
+		B3AEB5AA1ED2D07300E63C07 /* jindutiao.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = jindutiao.xib; sourceTree = "<group>"; };
+		B3E278D41ED3D15B00751F84 /* GCLoadingLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCLoadingLayer.h; sourceTree = "<group>"; };
+		B3E278D51ED3D15B00751F84 /* GCLoadingLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCLoadingLayer.m; sourceTree = "<group>"; };
+		B3E278D71ED3D1B400751F84 /* GCLoadingCircle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCLoadingCircle.h; sourceTree = "<group>"; };
+		B3E278D81ED3D1B400751F84 /* GCLoadingCircle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCLoadingCircle.m; sourceTree = "<group>"; };
+		B3E278D91ED3D1B400751F84 /* GCLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCLoadingView.h; sourceTree = "<group>"; };
+		B3E278DA1ED3D1B400751F84 /* GCLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCLoadingView.m; sourceTree = "<group>"; };
+		EE80494F1E8CE8F70067C298 /* Define.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Define.h; sourceTree = "<group>"; };
+		EE9CB7151E8B8D92004479E4 /* LJBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJBaseModel.h; sourceTree = "<group>"; };
+		EE9CB7161E8B8D92004479E4 /* LJBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJBaseModel.m; sourceTree = "<group>"; };
+		EE9CB7171E8B8D92004479E4 /* NSObject+YYModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+YYModel.h"; sourceTree = "<group>"; };
+		EE9CB7181E8B8D92004479E4 /* NSObject+YYModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+YYModel.m"; sourceTree = "<group>"; };
+		EE9CB7191E8B8D92004479E4 /* YYClassInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYClassInfo.h; sourceTree = "<group>"; };
+		EE9CB71A1E8B8D92004479E4 /* YYClassInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYClassInfo.m; sourceTree = "<group>"; };
+		EE9CB71B1E8B8D92004479E4 /* YYModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYModel.h; sourceTree = "<group>"; };
+		EEB7451F1E7F882600026712 /* DICOMViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DICOMViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEB745231E7F882600026712 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EEB7452C1E7F882600026712 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EEB7452F1E7F882600026712 /* DICOMViewer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DICOMViewer.xcdatamodel; sourceTree = "<group>"; };
+		EEB745311E7F882600026712 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EEB745341E7F882600026712 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EEB745361E7F882600026712 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEB7453B1E7F882600026712 /* DICOMViewerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DICOMViewerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEB7453F1E7F882600026712 /* DICOMViewerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DICOMViewerTests.m; sourceTree = "<group>"; };
+		EEB745411E7F882600026712 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEB745461E7F882600026712 /* DICOMViewerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DICOMViewerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEB7454A1E7F882600026712 /* DICOMViewerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DICOMViewerUITests.m; sourceTree = "<group>"; };
+		EEB7454C1E7F882600026712 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEB745651E7FA1F600026712 /* DICOMViewer-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DICOMViewer-Prefix.pch"; sourceTree = "<group>"; };
+		F571CC2EEC1AF19B17BBAFFF /* libPods-DICOMViewerUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DICOMViewerUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EEB7451C1E7F882600026712 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4AB7E0FED89CF2FDA2B359F /* libPods-DICOMViewer.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEB745381E7F882600026712 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B48290AC011362CD9D9EF7A /* libPods-DICOMViewerTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEB745431E7F882600026712 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A07697BFCF5D0BFD40115F0E /* libPods-DICOMViewerUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7053BB4FBED8C6C48776053E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4F139E4B2F996C34E99D43A0 /* Pods-DICOMViewer.debug.xcconfig */,
+				B37EE3D08F48AC1B43F8D257 /* Pods-DICOMViewer.release.xcconfig */,
+				1B98C8E39173B81342598F73 /* Pods-DICOMViewerTests.debug.xcconfig */,
+				66E973AA9217AEDC68A76428 /* Pods-DICOMViewerTests.release.xcconfig */,
+				2EF9E22D685421FB2E3153EA /* Pods-DICOMViewerUITests.debug.xcconfig */,
+				A4ADB72BE6CD2B3E7C935304 /* Pods-DICOMViewerUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B35A29791ED27F330074DAE8 /* PPHTTPRequestLayer */ = {
+			isa = PBXGroup;
+			children = (
+				B35A297A1ED27F4F0074DAE8 /* PPHTTPRequest.h */,
+				B35A297B1ED27F4F0074DAE8 /* PPHTTPRequest.m */,
+				B35A297C1ED27F4F0074DAE8 /* PPInterfacedConst.h */,
+			);
+			path = PPHTTPRequestLayer;
+			sourceTree = "<group>";
+		};
+		B37414471ECAF0F000AA3186 /* Dicom */ = {
+			isa = PBXGroup;
+			children = (
+				B37414481ECAF0F000AA3186 /* DicomDictionary.plist */,
+				B37414491ECAF0F000AA3186 /* KSDicom2DView.h */,
+				B374144A1ECAF0F000AA3186 /* KSDicom2DView.m */,
+				B374144B1ECAF0F000AA3186 /* KSDicomDecoder.h */,
+				B374144C1ECAF0F000AA3186 /* KSDicomDecoder.mm */,
+				B374144D1ECAF0F000AA3186 /* KSDicomDictionary.h */,
+				B374144E1ECAF0F000AA3186 /* KSDicomDictionary.m */,
+			);
+			path = Dicom;
+			sourceTree = SOURCE_ROOT;
+		};
+		B37414531ECAF13800AA3186 /* APPDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				B37414CC1ECAF4C400AA3186 /* MedFilmTabBarController.h */,
+				B37414CD1ECAF4C400AA3186 /* MedFilmTabBarController.m */,
+				B37414C91ECAF4A800AA3186 /* MedFilmNavigation.h */,
+				B37414CA1ECAF4A800AA3186 /* MedFilmNavigation.m */,
+				B37414541ECAF13800AA3186 /* AppDelegate.h */,
+				B37414551ECAF13800AA3186 /* AppDelegate.m */,
+			);
+			path = APPDelegate;
+			sourceTree = SOURCE_ROOT;
+		};
+		B37414571ECAF1B100AA3186 /* DicomFile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DicomFile;
+			sourceTree = "<group>";
+		};
+		B374146A1ECAF1F600AA3186 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				B374146B1ECAF1F600AA3186 /* CanvasView.h */,
+				B374146C1ECAF1F600AA3186 /* CanvasView.m */,
+				B374146F1ECAF1F600AA3186 /* NSString+Ext.h */,
+				B37414701ECAF1F600AA3186 /* NSString+Ext.m */,
+				B37414711ECAF1F600AA3186 /* ShapeView.h */,
+				B37414721ECAF1F600AA3186 /* ShapeView.m */,
+				B37414731ECAF1F600AA3186 /* Tool.h */,
+				B37414741ECAF1F600AA3186 /* Tool.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		B374147D1ECAF22400AA3186 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B374147E1ECAF22400AA3186 /* DetailViewController.h */,
+				B374147F1ECAF22400AA3186 /* DetailViewController.m */,
+				B37414801ECAF22400AA3186 /* MainViewController.h */,
+				B37414811ECAF22400AA3186 /* MainViewController.m */,
+				B37414821ECAF22400AA3186 /* ViewController.h */,
+				B37414831ECAF22400AA3186 /* ViewController.m */,
+			);
+			name = Controller;
+			path = DICOMViewer/Controller;
+			sourceTree = SOURCE_ROOT;
+		};
+		B37414871ECAF26600AA3186 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B37414881ECAF26600AA3186 /* DetailBottomView.h */,
+				B37414891ECAF26600AA3186 /* DetailBottomView.m */,
+				B374148A1ECAF26600AA3186 /* DetailContentView.h */,
+				B374148B1ECAF26600AA3186 /* DetailContentView.m */,
+				B374148C1ECAF26600AA3186 /* MainCell.h */,
+				B374148D1ECAF26600AA3186 /* MainCell.m */,
+				B3AEB5A71ED2D06100E63C07 /* jindutiao.h */,
+				B3AEB5A81ED2D06100E63C07 /* jindutiao.m */,
+				B3AEB5AA1ED2D07300E63C07 /* jindutiao.xib */,
+				B32A9D101EF910800067AEF8 /* MainTableViewCell.h */,
+				B32A9D111EF910800067AEF8 /* MainTableViewCell.m */,
+				B32A9D121EF910800067AEF8 /* MainTableViewCell.xib */,
+			);
+			name = View;
+			path = DICOMViewer/View;
+			sourceTree = SOURCE_ROOT;
+		};
+		B37414911ECAF2AC00AA3186 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				B37414921ECAF2AC00AA3186 /* CustomSlider.h */,
+				B37414931ECAF2AC00AA3186 /* CustomSlider.m */,
+			);
+			name = Custom;
+			path = DICOMViewer/Custom;
+			sourceTree = SOURCE_ROOT;
+		};
+		B37414951ECAF2E700AA3186 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B37414961ECAF2E700AA3186 /* PatientModel.h */,
+				B37414971ECAF2E700AA3186 /* PatientModel.m */,
+			);
+			name = Model;
+			path = DICOMViewer/Model;
+			sourceTree = SOURCE_ROOT;
+		};
+		B37414BF1ECAF3B700AA3186 /* Catagate */ = {
+			isa = PBXGroup;
+			children = (
+				B37414C01ECAF3B700AA3186 /* UIBarButtonItem+Extension.h */,
+				B37414C11ECAF3B700AA3186 /* UIBarButtonItem+Extension.m */,
+				B37414C21ECAF3B700AA3186 /* UIImage+SearchHeight.h */,
+				B37414C31ECAF3B700AA3186 /* UIImage+SearchHeight.m */,
+				B37414C41ECAF3B700AA3186 /* UIView+CCExtension.h */,
+				B37414C51ECAF3B700AA3186 /* UIView+CCExtension.m */,
+				B32A9D0D1EF8CDAF0067AEF8 /* NSString+SubstringToInde.h */,
+				B32A9D0E1EF8CDAF0067AEF8 /* NSString+SubstringToInde.m */,
+			);
+			name = Catagate;
+			path = DICOMViewer/Catagate;
+			sourceTree = SOURCE_ROOT;
+		};
+		B37414CF1ECAF63F00AA3186 /* Query */ = {
+			isa = PBXGroup;
+			children = (
+				B37414D01ECAF63F00AA3186 /* Controller */,
+				B37414D31ECAF63F00AA3186 /* Model */,
+				B37414D41ECAF63F00AA3186 /* View */,
+				B37414D51ECAF63F00AA3186 /* ViewModel */,
+			);
+			name = Query;
+			path = DICOMViewer/Query;
+			sourceTree = SOURCE_ROOT;
+		};
+		B37414D01ECAF63F00AA3186 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B37414D11ECAF63F00AA3186 /* QueryController.h */,
+				B37414D21ECAF63F00AA3186 /* QueryController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B37414D31ECAF63F00AA3186 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B37414D41ECAF63F00AA3186 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B37414D51ECAF63F00AA3186 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		B3AEB5911ED2B5C900E63C07 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				B3E278D11ED3D14300751F84 /* animation */,
+				B3AEB5921ED2B5C900E63C07 /* Category */,
+				B3AEB5931ED2B5C900E63C07 /* Controller */,
+				B3AEB5941ED2B5C900E63C07 /* Database */,
+				B3AEB5951ED2B5C900E63C07 /* LaunchScreen */,
+				B3AEB5961ED2B5C900E63C07 /* MedFilmNavigation */,
+				B3AEB5971ED2B5C900E63C07 /* MedFilmTabBar */,
+				B3AEB5981ED2B5C900E63C07 /* Model */,
+				B3AEB5991ED2B5C900E63C07 /* View */,
+				B3AEB59A1ED2B5C900E63C07 /* WebViewController */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		B3AEB5921ED2B5C900E63C07 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				B3AEB59B1ED2B5E900E63C07 /* AJImageheadData.h */,
+				B3AEB59C1ED2B5E900E63C07 /* AJImageheadData.m */,
+				B3AEB59D1ED2B5E900E63C07 /* UIFont+Fonts.h */,
+				B3AEB59E1ED2B5E900E63C07 /* UIFont+Fonts.m */,
+				B3AEB59F1ED2B5E900E63C07 /* UIResponder+Adapt.h */,
+				B3AEB5A01ED2B5E900E63C07 /* UIResponder+Adapt.m */,
+				B3AEB5A41ED2C37F00E63C07 /* MBProgressHUD+HH.h */,
+				B3AEB5A51ED2C37F00E63C07 /* MBProgressHUD+HH.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		B3AEB5931ED2B5C900E63C07 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B3AEB5941ED2B5C900E63C07 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		B3AEB5951ED2B5C900E63C07 /* LaunchScreen */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = LaunchScreen;
+			sourceTree = "<group>";
+		};
+		B3AEB5961ED2B5C900E63C07 /* MedFilmNavigation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MedFilmNavigation;
+			sourceTree = "<group>";
+		};
+		B3AEB5971ED2B5C900E63C07 /* MedFilmTabBar */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MedFilmTabBar;
+			sourceTree = "<group>";
+		};
+		B3AEB5981ED2B5C900E63C07 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B3AEB5991ED2B5C900E63C07 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B3AEB59A1ED2B5C900E63C07 /* WebViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = WebViewController;
+			sourceTree = "<group>";
+		};
+		B3E278D11ED3D14300751F84 /* animation */ = {
+			isa = PBXGroup;
+			children = (
+				B3E278D31ED3D15B00751F84 /* GCLoadingAnimation */,
+				B3E278D21ED3D14300751F84 /* GCLoadingView */,
+			);
+			path = animation;
+			sourceTree = "<group>";
+		};
+		B3E278D21ED3D14300751F84 /* GCLoadingView */ = {
+			isa = PBXGroup;
+			children = (
+				B3E278D71ED3D1B400751F84 /* GCLoadingCircle.h */,
+				B3E278D81ED3D1B400751F84 /* GCLoadingCircle.m */,
+				B3E278D91ED3D1B400751F84 /* GCLoadingView.h */,
+				B3E278DA1ED3D1B400751F84 /* GCLoadingView.m */,
+			);
+			path = GCLoadingView;
+			sourceTree = "<group>";
+		};
+		B3E278D31ED3D15B00751F84 /* GCLoadingAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				B3E278D41ED3D15B00751F84 /* GCLoadingLayer.h */,
+				B3E278D51ED3D15B00751F84 /* GCLoadingLayer.m */,
+			);
+			path = GCLoadingAnimation;
+			sourceTree = "<group>";
+		};
+		EE716D061E8F5CF400EA4DBE /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				EEB7452B1E7F882600026712 /* Main.storyboard */,
+				EEB745311E7F882600026712 /* Assets.xcassets */,
+				EEB745331E7F882600026712 /* LaunchScreen.storyboard */,
+				EEB745361E7F882600026712 /* Info.plist */,
+				EEB7452E1E7F882600026712 /* DICOMViewer.xcdatamodeld */,
+				EEB745651E7FA1F600026712 /* DICOMViewer-Prefix.pch */,
+				EE80494F1E8CE8F70067C298 /* Define.h */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
+		EE9CB7141E8B8D92004479E4 /* YYModel */ = {
+			isa = PBXGroup;
+			children = (
+				EE9CB7151E8B8D92004479E4 /* LJBaseModel.h */,
+				EE9CB7161E8B8D92004479E4 /* LJBaseModel.m */,
+				EE9CB7171E8B8D92004479E4 /* NSObject+YYModel.h */,
+				EE9CB7181E8B8D92004479E4 /* NSObject+YYModel.m */,
+				EE9CB7191E8B8D92004479E4 /* YYClassInfo.h */,
+				EE9CB71A1E8B8D92004479E4 /* YYClassInfo.m */,
+				EE9CB71B1E8B8D92004479E4 /* YYModel.h */,
+			);
+			path = YYModel;
+			sourceTree = "<group>";
+		};
+		EEB745161E7F882600026712 = {
+			isa = PBXGroup;
+			children = (
+				EEB745211E7F882600026712 /* DICOMViewer */,
+				EEB7453E1E7F882600026712 /* DICOMViewerTests */,
+				EEB745491E7F882600026712 /* DICOMViewerUITests */,
+				EEB745201E7F882600026712 /* Products */,
+				7053BB4FBED8C6C48776053E /* Pods */,
+				FDD13CD523BF79F2ECCC7345 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EEB745201E7F882600026712 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EEB7451F1E7F882600026712 /* DICOMViewer.app */,
+				EEB7453B1E7F882600026712 /* DICOMViewerTests.xctest */,
+				EEB745461E7F882600026712 /* DICOMViewerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EEB745211E7F882600026712 /* DICOMViewer */ = {
+			isa = PBXGroup;
+			children = (
+				B3AEB5911ED2B5C900E63C07 /* Main */,
+				B37414531ECAF13800AA3186 /* APPDelegate */,
+				B37414BF1ECAF3B700AA3186 /* Catagate */,
+				B37414471ECAF0F000AA3186 /* Dicom */,
+				EE9CB7141E8B8D92004479E4 /* YYModel */,
+				B37414CF1ECAF63F00AA3186 /* Query */,
+				B374147D1ECAF22400AA3186 /* Controller */,
+				B37414871ECAF26600AA3186 /* View */,
+				B37414951ECAF2E700AA3186 /* Model */,
+				EE716D061E8F5CF400EA4DBE /* Other */,
+				B37414571ECAF1B100AA3186 /* DicomFile */,
+				B37414911ECAF2AC00AA3186 /* Custom */,
+				B374146A1ECAF1F600AA3186 /* Tool */,
+				B35A29791ED27F330074DAE8 /* PPHTTPRequestLayer */,
+				EEB745221E7F882600026712 /* Supporting Files */,
+			);
+			path = DICOMViewer;
+			sourceTree = "<group>";
+		};
+		EEB745221E7F882600026712 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EEB745231E7F882600026712 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EEB7453E1E7F882600026712 /* DICOMViewerTests */ = {
+			isa = PBXGroup;
+			children = (
+				EEB7453F1E7F882600026712 /* DICOMViewerTests.m */,
+				EEB745411E7F882600026712 /* Info.plist */,
+			);
+			path = DICOMViewerTests;
+			sourceTree = "<group>";
+		};
+		EEB745491E7F882600026712 /* DICOMViewerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EEB7454A1E7F882600026712 /* DICOMViewerUITests.m */,
+				EEB7454C1E7F882600026712 /* Info.plist */,
+			);
+			path = DICOMViewerUITests;
+			sourceTree = "<group>";
+		};
+		FDD13CD523BF79F2ECCC7345 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7F8F50915CF4BC31BA575458 /* libPods-DICOMViewer.a */,
+				7C9E075A5FD456434469BFB5 /* libPods-DICOMViewerTests.a */,
+				F571CC2EEC1AF19B17BBAFFF /* libPods-DICOMViewerUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EEB7451E1E7F882600026712 /* DICOMViewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEB7454F1E7F882600026712 /* Build configuration list for PBXNativeTarget "DICOMViewer" */;
+			buildPhases = (
+				BB3EFAB0BCBDC71136F02F0D /* [CP] Check Pods Manifest.lock */,
+				EEB7451B1E7F882600026712 /* Sources */,
+				EEB7451C1E7F882600026712 /* Frameworks */,
+				EEB7451D1E7F882600026712 /* Resources */,
+				E107851EE77E912138006BBA /* [CP] Embed Pods Frameworks */,
+				E1401E6EB24CDDD747FEDC5E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DICOMViewer;
+			productName = DICOMViewer;
+			productReference = EEB7451F1E7F882600026712 /* DICOMViewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EEB7453A1E7F882600026712 /* DICOMViewerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEB745521E7F882600026712 /* Build configuration list for PBXNativeTarget "DICOMViewerTests" */;
+			buildPhases = (
+				39C0205CE85B759F89A10038 /* [CP] Check Pods Manifest.lock */,
+				EEB745371E7F882600026712 /* Sources */,
+				EEB745381E7F882600026712 /* Frameworks */,
+				EEB745391E7F882600026712 /* Resources */,
+				EF746934F90E5793247A37E6 /* [CP] Embed Pods Frameworks */,
+				D6692A2243298787EE399487 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EEB7453D1E7F882600026712 /* PBXTargetDependency */,
+			);
+			name = DICOMViewerTests;
+			productName = DICOMViewerTests;
+			productReference = EEB7453B1E7F882600026712 /* DICOMViewerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EEB745451E7F882600026712 /* DICOMViewerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEB745551E7F882600026712 /* Build configuration list for PBXNativeTarget "DICOMViewerUITests" */;
+			buildPhases = (
+				A30FC7576600BFDB0BC22F2A /* [CP] Check Pods Manifest.lock */,
+				EEB745421E7F882600026712 /* Sources */,
+				EEB745431E7F882600026712 /* Frameworks */,
+				EEB745441E7F882600026712 /* Resources */,
+				0183FC0EA8E56467572B795D /* [CP] Embed Pods Frameworks */,
+				DD63E847347F619492F61DA2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EEB745481E7F882600026712 /* PBXTargetDependency */,
+			);
+			name = DICOMViewerUITests;
+			productName = DICOMViewerUITests;
+			productReference = EEB745461E7F882600026712 /* DICOMViewerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EEB745171E7F882600026712 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = ZJQ;
+				TargetAttributes = {
+					EEB7451E1E7F882600026712 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 78CNV4J9HD;
+						ProvisioningStyle = Automatic;
+					};
+					EEB7453A1E7F882600026712 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 245FQQCUSQ;
+						ProvisioningStyle = Manual;
+						TestTargetID = EEB7451E1E7F882600026712;
+					};
+					EEB745451E7F882600026712 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EEB7451E1E7F882600026712;
+					};
+				};
+			};
+			buildConfigurationList = EEB7451A1E7F882600026712 /* Build configuration list for PBXProject "DICOMViewer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EEB745161E7F882600026712;
+			productRefGroup = EEB745201E7F882600026712 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EEB7451E1E7F882600026712 /* DICOMViewer */,
+				EEB7453A1E7F882600026712 /* DICOMViewerTests */,
+				EEB745451E7F882600026712 /* DICOMViewerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EEB7451D1E7F882600026712 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B32A9D141EF910800067AEF8 /* MainTableViewCell.xib in Resources */,
+				B374144F1ECAF0F000AA3186 /* DicomDictionary.plist in Resources */,
+				EEB745351E7F882600026712 /* LaunchScreen.storyboard in Resources */,
+				EEB745321E7F882600026712 /* Assets.xcassets in Resources */,
+				EEB7452D1E7F882600026712 /* Main.storyboard in Resources */,
+				B3AEB5AB1ED2D07300E63C07 /* jindutiao.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEB745391E7F882600026712 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEB745441E7F882600026712 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0183FC0EA8E56467572B795D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DICOMViewerUITests/Pods-DICOMViewerUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		39C0205CE85B759F89A10038 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A30FC7576600BFDB0BC22F2A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BB3EFAB0BCBDC71136F02F0D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D6692A2243298787EE399487 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DICOMViewerTests/Pods-DICOMViewerTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD63E847347F619492F61DA2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DICOMViewerUITests/Pods-DICOMViewerUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E107851EE77E912138006BBA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DICOMViewer/Pods-DICOMViewer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1401E6EB24CDDD747FEDC5E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DICOMViewer/Pods-DICOMViewer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF746934F90E5793247A37E6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DICOMViewerTests/Pods-DICOMViewerTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EEB7451B1E7F882600026712 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B374148E1ECAF26600AA3186 /* DetailBottomView.m in Sources */,
+				B37414981ECAF2E700AA3186 /* PatientModel.m in Sources */,
+				B37414861ECAF22400AA3186 /* ViewController.m in Sources */,
+				B37414501ECAF0F000AA3186 /* KSDicom2DView.m in Sources */,
+				B3E278D61ED3D15B00751F84 /* GCLoadingLayer.m in Sources */,
+				B37414851ECAF22400AA3186 /* MainViewController.m in Sources */,
+				B37414901ECAF26600AA3186 /* MainCell.m in Sources */,
+				EE9CB71E1E8B8D92004479E4 /* YYClassInfo.m in Sources */,
+				EE9CB71D1E8B8D92004479E4 /* NSObject+YYModel.m in Sources */,
+				B37414521ECAF0F000AA3186 /* KSDicomDictionary.m in Sources */,
+				B37414941ECAF2AC00AA3186 /* CustomSlider.m in Sources */,
+				B37414511ECAF0F000AA3186 /* KSDicomDecoder.mm in Sources */,
+				B32A9D0F1EF8CDAF0067AEF8 /* NSString+SubstringToInde.m in Sources */,
+				B35A297D1ED27F4F0074DAE8 /* PPHTTPRequest.m in Sources */,
+				B3E278DB1ED3D1B400751F84 /* GCLoadingCircle.m in Sources */,
+				B37414791ECAF1F600AA3186 /* NSString+Ext.m in Sources */,
+				B3AEB5A61ED2C37F00E63C07 /* MBProgressHUD+HH.m in Sources */,
+				B374147B1ECAF1F600AA3186 /* Tool.m in Sources */,
+				B3AEB5A11ED2B5E900E63C07 /* AJImageheadData.m in Sources */,
+				B37414771ECAF1F600AA3186 /* CanvasView.m in Sources */,
+				B37414C81ECAF3B700AA3186 /* UIView+CCExtension.m in Sources */,
+				EEB745301E7F882600026712 /* DICOMViewer.xcdatamodeld in Sources */,
+				B3E278DC1ED3D1B400751F84 /* GCLoadingView.m in Sources */,
+				B374147A1ECAF1F600AA3186 /* ShapeView.m in Sources */,
+				B3AEB5A91ED2D06100E63C07 /* jindutiao.m in Sources */,
+				EEB745241E7F882600026712 /* main.m in Sources */,
+				B37414CB1ECAF4A800AA3186 /* MedFilmNavigation.m in Sources */,
+				B3AEB5A31ED2B5E900E63C07 /* UIResponder+Adapt.m in Sources */,
+				B374148F1ECAF26600AA3186 /* DetailContentView.m in Sources */,
+				EE9CB71C1E8B8D92004479E4 /* LJBaseModel.m in Sources */,
+				B3AEB5A21ED2B5E900E63C07 /* UIFont+Fonts.m in Sources */,
+				B37414CE1ECAF4C400AA3186 /* MedFilmTabBarController.m in Sources */,
+				B32A9D131EF910800067AEF8 /* MainTableViewCell.m in Sources */,
+				B37414C61ECAF3B700AA3186 /* UIBarButtonItem+Extension.m in Sources */,
+				B37414841ECAF22400AA3186 /* DetailViewController.m in Sources */,
+				B37414C71ECAF3B700AA3186 /* UIImage+SearchHeight.m in Sources */,
+				B37414561ECAF13800AA3186 /* AppDelegate.m in Sources */,
+				B37414D61ECAF63F00AA3186 /* QueryController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEB745371E7F882600026712 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEB745401E7F882600026712 /* DICOMViewerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEB745421E7F882600026712 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEB7454B1E7F882600026712 /* DICOMViewerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EEB7453D1E7F882600026712 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EEB7451E1E7F882600026712 /* DICOMViewer */;
+			targetProxy = EEB7453C1E7F882600026712 /* PBXContainerItemProxy */;
+		};
+		EEB745481E7F882600026712 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EEB7451E1E7F882600026712 /* DICOMViewer */;
+			targetProxy = EEB745471E7F882600026712 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EEB7452B1E7F882600026712 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEB7452C1E7F882600026712 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EEB745331E7F882600026712 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEB745341E7F882600026712 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EEB7454D1E7F882600026712 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EEB7454E1E7F882600026712 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EEB745501E7F882600026712 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F139E4B2F996C34E99D43A0 /* Pods-DICOMViewer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: eWord Technologies, Inc.";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 78CNV4J9HD;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/DICOMViewer/DICOMViewer-Prefix.pch";
+				INFOPLIST_FILE = DICOMViewer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ewdicom.DicomViewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "b1064914-5d7c-473e-8838-abced83793ef";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		EEB745511E7F882600026712 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B37EE3D08F48AC1B43F8D257 /* Pods-DICOMViewer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: eWord Technologies, Inc.";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 78CNV4J9HD;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/DICOMViewer/DICOMViewer-Prefix.pch";
+				INFOPLIST_FILE = DICOMViewer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ewdicom.DicomViewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "b1064914-5d7c-473e-8838-abced83793ef";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
+		EEB745531E7F882600026712 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B98C8E39173B81342598F73 /* Pods-DICOMViewerTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = DICOMViewerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DICOMViewerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DICOMViewer.app/DICOMViewer";
+			};
+			name = Debug;
+		};
+		EEB745541E7F882600026712 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66E973AA9217AEDC68A76428 /* Pods-DICOMViewerTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 245FQQCUSQ;
+				INFOPLIST_FILE = DICOMViewerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DICOMViewerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DICOMViewer.app/DICOMViewer";
+			};
+			name = Release;
+		};
+		EEB745561E7F882600026712 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EF9E22D685421FB2E3153EA /* Pods-DICOMViewerUITests.debug.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = DICOMViewerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DICOMViewerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DICOMViewer;
+			};
+			name = Debug;
+		};
+		EEB745571E7F882600026712 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4ADB72BE6CD2B3E7C935304 /* Pods-DICOMViewerUITests.release.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = DICOMViewerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DICOMViewerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DICOMViewer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EEB7451A1E7F882600026712 /* Build configuration list for PBXProject "DICOMViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEB7454D1E7F882600026712 /* Debug */,
+				EEB7454E1E7F882600026712 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEB7454F1E7F882600026712 /* Build configuration list for PBXNativeTarget "DICOMViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEB745501E7F882600026712 /* Debug */,
+				EEB745511E7F882600026712 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEB745521E7F882600026712 /* Build configuration list for PBXNativeTarget "DICOMViewerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEB745531E7F882600026712 /* Debug */,
+				EEB745541E7F882600026712 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEB745551E7F882600026712 /* Build configuration list for PBXNativeTarget "DICOMViewerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEB745561E7F882600026712 /* Debug */,
+				EEB745571E7F882600026712 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EEB7452E1E7F882600026712 /* DICOMViewer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EEB7452F1E7F882600026712 /* DICOMViewer.xcdatamodel */,
+			);
+			currentVersion = EEB7452F1E7F882600026712 /* DICOMViewer.xcdatamodel */;
+			path = DICOMViewer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EEB745171E7F882600026712 /* Project object */;
+}
